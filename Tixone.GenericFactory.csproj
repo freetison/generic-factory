@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net462; net472; net48; net5.0; net6.0</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Tixone.Net.Generic.Factory</PackageId>
+    <Authors>Angel Sola</Authors>
+    <Company>Mgft</Company>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/freetison/generic-factory</RepositoryUrl>
+    <PackageTags>net core, c#, factory, generic, pattern , dependency injection</PackageTags>
+    <PackageIcon>Tx.jpeg</PackageIcon>
+    <PackageIconUrl />
+    <RootNamespace>Tixone.GenericFactory</RootNamespace>
+    <AssemblyName>Tixone.GenericFactory</AssemblyName>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <Description>Generic factory to use with or without dependency injection</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <None Include="..\..\Tx.jpeg">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
